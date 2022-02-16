@@ -12,7 +12,6 @@ public enum EMode
 	NO_QUOTES(1, "no quotes"),
 	WITH_QUOTES(2, "with quotes");
 
-
 	private final int code;
 	private final String description;
 	private static Map<Integer, EMode> values = new HashMap<>();
